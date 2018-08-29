@@ -31,6 +31,7 @@ return [
     |
     */
 
+
     'connections' => [
 
         'sqlite' => [
@@ -38,17 +39,17 @@ return [
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
         ],
-
+        // mysql://bda2bef10a1886:48fc605f@us-cdbr-iron-east-01.cleardb.net/heroku_220e42706e13c06?reconnect=true
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => "us-cdbr-iron-east-01.cleardb.net",
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => substr('/heroku_220e42706e13c06', 1),
+            'username' => "bda2bef10a1886",
+            'password' => "48fc605f",
             'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
             'prefix' => '',
             'strict' => true,
             'engine' => null,

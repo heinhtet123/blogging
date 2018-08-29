@@ -11,7 +11,7 @@ use Faker\Generator as Faker;
 class UserTest extends TestCase
 {
 	
-	protected function setUp()
+	public function setUp()
 	{
 		   parent::setUp();
 
@@ -24,12 +24,13 @@ class UserTest extends TestCase
     public function testExample()
     {
 
+    	
+    	$response = $this->call($method, $uri, $parameters, $cookies, $files, $server, $content);
 
-    	// $response = $this->call($method, $uri, $parameters, $cookies, $files, $server, $content);
-    	// $response->assertStatus(200);
+    	$response->assertStatus(200);	
 
 
-        $this->assertTrue(true);
+        // $this->assertTrue(true);
     }
 
 }
