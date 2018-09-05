@@ -13,6 +13,8 @@ class UserController extends Controller
      */
     public function index()
     {
+        sleep(10);
+        
         return response()->json([
             'access_token' => "helloworld"
         ]);        
