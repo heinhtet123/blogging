@@ -13,7 +13,9 @@ class UserController extends Controller
      */
     public function index()
     {
-        dd("do something");
+        return response()->json([
+            'access_token' => "helloworld"
+        ]);        
     }
 
     /**
@@ -23,7 +25,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -41,7 +43,6 @@ class UserController extends Controller
             'email' => 'required|string|email|unique:users',
             'password' => 'required|string|confirmed'
         ]);
-
 
 
         $user = new User([

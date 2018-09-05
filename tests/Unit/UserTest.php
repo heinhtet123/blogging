@@ -24,7 +24,6 @@ class UserTest extends TestCase
     public function testExample()
     {
 
-    	
     	// $response = $this->call($method, $uri, $parameters, $cookies, $files, $server, $content);
 
     	// $response->assertStatus(200);	
