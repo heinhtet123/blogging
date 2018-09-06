@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -25,6 +24,14 @@ $app = new Illuminate\Foundation\Application(
 | incoming requests to this application from both the web and CLI.
 |
 */
+
+
+// if ($_SERVER['HTTP_HOST'] == 'https://young-mesa-91457.herokuapp.com') {
+//     Dotenv::load(__DIR__ . '/../','.dev.env');
+// } else {
+//     Dotenv::load(__DIR__ . '/../','.local.env');
+// }
+
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,

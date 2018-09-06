@@ -17,13 +17,11 @@ class UserController extends Controller
     { 
         $environment = App::environment();
 
-       
-        
         return response()->json([
             'access_token' => "helloworld",
             'environment'  => $environment,
             'LOG_CHANNEL'  => env('LOG_CHANNEL')
-        ]);        
+        ]);
     }
 
     /**
