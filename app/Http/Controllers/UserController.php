@@ -22,7 +22,7 @@ class UserController extends Controller
         return response()->json([
             'access_token' => "helloworld",
             'environment'  => $environment,
-            'LOG_CHANNEL'  => get_env('LOG_CHANNEL')
+            'LOG_CHANNEL'  => env('LOG_CHANNEL')
         ]);        
     }
 
