@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\App;
+
 class UserController extends Controller
 {
     /**
@@ -12,11 +14,14 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        sleep(10);
+    { 
+        $environment = App::environment();
+
+      
         
         return response()->json([
-            'access_token' => "helloworld"
+            'access_token' => "helloworld",
+            'environment'  => $environment
         ]);        
     }
 
