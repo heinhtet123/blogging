@@ -15,6 +15,7 @@ class UserController extends Controller
      */
     public function index()
     { 
+        sleep(10);
         $environment = App::environment();
 
         return response()->json([
