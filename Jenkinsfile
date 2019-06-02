@@ -1,14 +1,14 @@
 pipeline {
   agent {
-    docker {
-      image 'hitalos/laravel'
+    node {
+      label 'master'
     }
 
   }
   stages {
     stage('Build') {
       steps {
-        sh 'echo composer require'
+        sh 'composer install'
       }
     }
   }
