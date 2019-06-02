@@ -1,13 +1,14 @@
-pipeline{
+pipeline {
   agent {
     docker {
       image 'hitalos/laravel'
     }
+
   }
   stages {
     stage('Build') {
-      steps{
-        sh 'echo hello'
+      steps {
+        sh 'echo composer require'
       }
     }
   }
