@@ -1,7 +1,7 @@
 pipeline{
   agent {
     docker {
-      image 'hein71290/laraveldemo2'
+      image 'hitalos/laravel'
     }
   }
   stages {
