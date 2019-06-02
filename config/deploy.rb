@@ -1,8 +1,12 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :application, "blogging"
+set :repo_url, "git@github.com:geekoutmm/blogging.git"
+set :deploy_to, "/home/ec2-user/#{fetch :application}"
+set :linked_files, %w{storage/}
+set :linked_files, %w{.env}
+set :keep_releases, 5
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
