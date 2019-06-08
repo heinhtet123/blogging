@@ -10,18 +10,5 @@ pipeline {
         sh 'composer install'
       }
     }
-    stage('Test') {
-      steps {
-
-      }
-    }
-
-    stage('Deploy') {
-      steps {
-      }
-    }
-  }
-  environment {
-    ruby = '2.5.3'
   }
 }
