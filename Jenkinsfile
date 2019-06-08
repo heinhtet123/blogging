@@ -3,6 +3,7 @@ pipeline {
     docker {
       image 'hein71290/phpalpine:latest'
     }
+
   }
   stages {
     stage('Build') {
@@ -12,9 +13,11 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        sshagent (credentials: ['deploy']) {
-          sh 'bundle exec cap staging deploy'
+        sh 'gem install capistrano'
+        sshagent(credentials: ['deploy']) {
+          sh 'cap staging deploy'
         }
+
       }
     }
   }
