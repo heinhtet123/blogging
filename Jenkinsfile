@@ -10,5 +10,12 @@ pipeline {
         sh 'composer install'
       }
     }
+    stage('Deploy') {
+      steps {
+        sshagent (credentials: ['deploy']) {
+          sh 'bundle exec cap staging deploy'
+        }
+      }
+    }
   }
 }
