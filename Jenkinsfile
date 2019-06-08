@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'hein71290/phpalpine'
+      image 'hein71290/phpalpine:latest'
     }
   }
   stages {
