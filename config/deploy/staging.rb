@@ -1,11 +1,11 @@
 server '13.250.44.215', user: 'ec2-user', roles: %w{app db web}
 set :branch, "jenkins"
-set :ssh_options, {
-  forward_agent: true,
-  auth_methods: %w(publickey),
-  keys: %w(~/.ssh/geekout.pem),
-  port: 22
-}
+#set :ssh_options, {
+#  forward_agent: true,
+#  auth_methods: %w(publickey),
+#  keys: %w(~/.ssh/geekout.pem),
+#  port: 22
+#}
 #
 #
 # server-based syntax
