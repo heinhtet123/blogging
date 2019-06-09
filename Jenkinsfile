@@ -13,7 +13,9 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        docker.build("myfirstbuild")
+        script{
+          docker.build("myfirstbuild")
+        }
       }
     }
   }
