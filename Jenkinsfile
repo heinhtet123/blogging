@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        def customImage = docker.build("myfirstbuild")
+        docker.build("myfirstbuild")
       }
     }
   }
