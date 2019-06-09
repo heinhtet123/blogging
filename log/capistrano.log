@@ -1,0 +1,38 @@
+# Logfile created on 2019-06-02 16:25:47 +0630 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 16:25:47 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [78d46a24] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [78d46a24] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4248f308] Finished in 0.842 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-macbookpro.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-macbookpro.sh 100.0%
+  INFO [dfba5220] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-macbookpro.sh as ec2-user@13.250.44.215
+ DEBUG [dfba5220] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-macbookpro.sh
+  INFO [71a2da49] Finished in 0.280 seconds with exit status 0 (successful).
+  INFO [66c0addd] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [66c0addd] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-macbookpro.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [d20bc581] 	git@github.com: Permission denied (publickey).
+ DEBUG [d20bc581] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 16:33:56 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [5f791e57] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [5f791e57] Command: /usr/bin/env mkdir -p /tmp
+  INFO [61cd48ec] Finished in 0.734 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-macbookpro.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-macbookpro.sh 100.0%
+  INFO [cbd0e094] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-macbookpro.sh as ec2-user@13.250.44.215
+ DEBUG [cbd0e094] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-macbookpro.sh
+  INFO [9327e73d] Finished in 0.216 seconds with exit status 0 (successful).
+  INFO [d023ac62] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [d023ac62] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-macbookpro.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [fd34ef3c] 	Warning: Permanently added the RSA host key for IP address '52.74.223.119' to the list of known hosts.
+ DEBUG [fd34ef3c] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
