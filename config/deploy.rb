@@ -4,7 +4,7 @@ lock "~> 3.11.0"
 set :application, "blogging"
 set :repo_url, "git@github.com:geekoutmm/blogging.git"
 set :deploy_to, "/home/ec2-user/#{fetch :application}"
-set :linked_files, %w{storage/}
+set :linked_dirs, %w{storage/}
 set :linked_files, %w{.env}
 set :keep_releases, 5
 

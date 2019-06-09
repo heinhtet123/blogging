@@ -1,0 +1,619 @@
+# Logfile created on 2019-06-02 14:54:12 +0630 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 14:54:12 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:07:51 +0630 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [22717ba0] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.125
+ DEBUG [22717ba0] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:09:07 +0630 cap staging deployy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:09:10 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d7442243] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.125
+ DEBUG [d7442243] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:11:38 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [340eb299] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.125
+ DEBUG [340eb299] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:18:14 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [e248db4b] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.125
+ DEBUG [e248db4b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:20:55 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d1583ad5] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.125
+ DEBUG [d1583ad5] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:23:32 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [12e93f7b] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.125
+ DEBUG [12e93f7b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:28:10 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [26f8f80b] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [26f8f80b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:29:41 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [88dd4788] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [88dd4788] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9e56b80b] Finished in 0.782 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [df2e2dc2] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [df2e2dc2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [ff708871] Finished in 0.205 seconds with exit status 0 (successful).
+  INFO [c5b26196] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [c5b26196] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [488e9bc2] 	Warning: Permanently added 'github.com,13.250.177.223' (RSA) to the list of known hosts.
+ DEBUG [488e9bc2] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [488e9bc2] Finished in 2.764 seconds with exit status 0 (successful).
+  INFO [cced39b1] Running /usr/bin/env mkdir -p /home/deploy/blogging/shared /home/deploy/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [cced39b1] Command: /usr/bin/env mkdir -p /home/deploy/blogging/shared /home/deploy/blogging/releases
+ DEBUG [a5805b58] 	mkdir: cannot create directory ‘/home/deploy’: Permission denied
+mkdir: cannot create directory ‘/home/deploy’: Permission denied
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:30:36 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [0fa61cdb] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [0fa61cdb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [03a1046c] Finished in 19.457 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [17d47cde] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [17d47cde] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [88f0d176] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [79e43b24] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [79e43b24] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [464de3a8] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [464de3a8] Finished in 4.804 seconds with exit status 0 (successful).
+  INFO [e0ec750a] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [e0ec750a] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [5c5f348f] Finished in 0.166 seconds with exit status 0 (successful).
+  INFO [c0b5c41a] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [c0b5c41a] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [1c70dfb7] Finished in 0.200 seconds with exit status 0 (successful).
+ DEBUG [833a6cf8] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [833a6cf8] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [59b03e94] Finished in 0.198 seconds with exit status 1 (failed).
+ ERROR linked file /home/ec2-user/blogging/shared/.env does not exist on 13.250.44.215
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:31:40 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [719387a4] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [719387a4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [02a5bbca] Finished in 0.860 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [a7d7ae1f] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [a7d7ae1f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [8923cd66] Finished in 0.214 seconds with exit status 0 (successful).
+  INFO [a5e9f25c] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [a5e9f25c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [754df2bc] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [754df2bc] Finished in 2.722 seconds with exit status 0 (successful).
+  INFO [acc1142d] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [acc1142d] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [f8c71c11] Finished in 0.176 seconds with exit status 0 (successful).
+  INFO [bf45348f] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [bf45348f] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [0bf3c4a3] Finished in 0.216 seconds with exit status 0 (successful).
+ DEBUG [0b966d3c] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [0b966d3c] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [2be4b52d] Finished in 0.208 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:32:25 +0630 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b373e2df] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [b373e2df] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8dfd2fa0] Finished in 0.826 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [6f19d7e9] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [6f19d7e9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [f161dee1] Finished in 0.227 seconds with exit status 0 (successful).
+  INFO [5786abfa] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [5786abfa] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [2145024a] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [2145024a] Finished in 2.870 seconds with exit status 0 (successful).
+  INFO [aec39391] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [aec39391] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [038e403e] Finished in 0.173 seconds with exit status 0 (successful).
+  INFO [e398f0d7] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [e398f0d7] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [295fa918] Finished in 0.219 seconds with exit status 0 (successful).
+ DEBUG [71fbb23d] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [71fbb23d] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [5c56ee6f] Finished in 0.210 seconds with exit status 0 (successful).
+ DEBUG [e0bf7580] Running [ -f /home/ec2-user/blogging/current/REVISION ] as ec2-user@13.250.44.215
+ DEBUG [e0bf7580] Command: [ -f /home/ec2-user/blogging/current/REVISION ]
+ DEBUG [9f9df999] Finished in 0.209 seconds with exit status 1 (failed).
+ DEBUG [5a852545] Running [ -f /home/ec2-user/blogging/repo/HEAD ] as ec2-user@13.250.44.215
+ DEBUG [5a852545] Command: [ -f /home/ec2-user/blogging/repo/HEAD ]
+ DEBUG [e63fa99c] Finished in 0.231 seconds with exit status 1 (failed).
+ DEBUG [6748d543] Running if test ! -d /home/ec2-user/blogging; then echo "Directory does not exist '/home/ec2-user/blogging'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [6748d543] Command: if test ! -d /home/ec2-user/blogging; then echo "Directory does not exist '/home/ec2-user/blogging'" 1>&2; false; fi
+ DEBUG [553188b1] Finished in 0.231 seconds with exit status 0 (successful).
+  INFO [1f327535] Running /usr/bin/env git clone --mirror git@github.com:geekoutmm/blogging.git /home/ec2-user/blogging/repo as ec2-user@13.250.44.215
+ DEBUG [1f327535] Command: cd /home/ec2-user/blogging && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git clone --mirror git@github.com:geekoutmm/blogging.git /home/ec2-user/blogging/repo )
+ DEBUG [fe5955d9] 	Cloning into bare repository '/home/ec2-user/blogging/repo'...
+  INFO [fe5955d9] Finished in 3.729 seconds with exit status 0 (successful).
+ DEBUG [a3a0facd] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [a3a0facd] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [8700e8a7] Finished in 0.177 seconds with exit status 0 (successful).
+  INFO [a61b4bb3] Running /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git as ec2-user@13.250.44.215
+ DEBUG [a61b4bb3] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git )
+  INFO [31c42fb0] Finished in 0.212 seconds with exit status 0 (successful).
+  INFO [a0d918ff] Running /usr/bin/env git remote update --prune as ec2-user@13.250.44.215
+ DEBUG [a0d918ff] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [64fa09ab] 	Fetching origin
+  INFO [64fa09ab] Finished in 2.767 seconds with exit status 0 (successful).
+ DEBUG [ba8495b7] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [ba8495b7] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [ce6d0e67] Finished in 0.183 seconds with exit status 0 (successful).
+  INFO [6034b3ab] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090230 as ec2-user@13.250.44.215
+ DEBUG [6034b3ab] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090230 )
+  INFO [d812711f] Finished in 0.218 seconds with exit status 0 (successful).
+  INFO [151eece9] Running /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190602090230 as ec2-user@13.250.44.215
+ DEBUG [151eece9] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190602090230 )
+  INFO [9bc36ef2] Finished in 0.250 seconds with exit status 0 (successful).
+ DEBUG [44a21e30] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [44a21e30] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [8509a3fe] Finished in 0.236 seconds with exit status 0 (successful).
+ DEBUG [b3550e2e] Running /usr/bin/env git rev-list --max-count=1 jenkins as ec2-user@13.250.44.215
+ DEBUG [b3550e2e] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git rev-list --max-count=1 jenkins )
+ DEBUG [fe88680e] 	c0e22b54b568054145bb3da92a49106fcc1a341a
+ DEBUG [fe88680e] Finished in 0.214 seconds with exit status 0 (successful).
+ DEBUG [ecb08efd] Running if test ! -d /home/ec2-user/blogging/releases/20190602090230; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190602090230'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [ecb08efd] Command: if test ! -d /home/ec2-user/blogging/releases/20190602090230; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190602090230'" 1>&2; false; fi
+ DEBUG [aea77b39] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [a7a16eff] Running /usr/bin/env echo "c0e22b54b568054145bb3da92a49106fcc1a341a" > REVISION as ec2-user@13.250.44.215
+ DEBUG [a7a16eff] Command: cd /home/ec2-user/blogging/releases/20190602090230 && /usr/bin/env echo "c0e22b54b568054145bb3da92a49106fcc1a341a" > REVISION
+  INFO [fe420b07] Finished in 0.217 seconds with exit status 0 (successful).
+  INFO [e8d41ebc] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090230 as ec2-user@13.250.44.215
+ DEBUG [e8d41ebc] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090230
+  INFO [ac56af67] Finished in 0.213 seconds with exit status 0 (successful).
+ DEBUG [c0821c1f] Running [ -L /home/ec2-user/blogging/releases/20190602090230/.env ] as ec2-user@13.250.44.215
+ DEBUG [c0821c1f] Command: [ -L /home/ec2-user/blogging/releases/20190602090230/.env ]
+ DEBUG [aa6e6eba] Finished in 0.253 seconds with exit status 1 (failed).
+ DEBUG [d5f471bf] Running [ -f /home/ec2-user/blogging/releases/20190602090230/.env ] as ec2-user@13.250.44.215
+ DEBUG [d5f471bf] Command: [ -f /home/ec2-user/blogging/releases/20190602090230/.env ]
+ DEBUG [692f8e3a] Finished in 0.215 seconds with exit status 1 (failed).
+  INFO [4f8fcdd4] Running /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190602090230/.env as ec2-user@13.250.44.215
+ DEBUG [4f8fcdd4] Command: /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190602090230/.env
+  INFO [26fa4295] Finished in 0.217 seconds with exit status 0 (successful).
+  INFO [efca266d] Running /usr/bin/env ln -s /home/ec2-user/blogging/releases/20190602090230 /home/ec2-user/blogging/releases/current as ec2-user@13.250.44.215
+ DEBUG [efca266d] Command: /usr/bin/env ln -s /home/ec2-user/blogging/releases/20190602090230 /home/ec2-user/blogging/releases/current
+  INFO [1dacfdaf] Finished in 0.213 seconds with exit status 0 (successful).
+  INFO [bbd4af06] Running /usr/bin/env mv /home/ec2-user/blogging/releases/current /home/ec2-user/blogging as ec2-user@13.250.44.215
+ DEBUG [bbd4af06] Command: /usr/bin/env mv /home/ec2-user/blogging/releases/current /home/ec2-user/blogging
+  INFO [ab17c05f] Finished in 0.215 seconds with exit status 0 (successful).
+ DEBUG [b889f1c1] Running /usr/bin/env ls -x /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [b889f1c1] Command: /usr/bin/env ls -x /home/ec2-user/blogging/releases
+ DEBUG [1737aef8] 	20190602090230
+ DEBUG [1737aef8] Finished in 0.209 seconds with exit status 0 (successful).
+ DEBUG [dc3a836b] Running if test ! -d /home/ec2-user/blogging/releases; then echo "Directory does not exist '/home/ec2-user/blogging/releases'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [dc3a836b] Command: if test ! -d /home/ec2-user/blogging/releases; then echo "Directory does not exist '/home/ec2-user/blogging/releases'" 1>&2; false; fi
+ DEBUG [a0de15f4] Finished in 0.211 seconds with exit status 0 (successful).
+  INFO [4fe53e7c] Running /usr/bin/env echo "Branch jenkins (at c0e22b54b568054145bb3da92a49106fcc1a341a) deployed as release 20190602090230 by min" >> /home/ec2-user/blogging/revisions.log as ec2-user@13.250.44.215
+ DEBUG [4fe53e7c] Command: cd /home/ec2-user/blogging/releases && /usr/bin/env echo "Branch jenkins (at c0e22b54b568054145bb3da92a49106fcc1a341a) deployed as release 20190602090230 by min" >> /home/ec2-user/blogging/revisions.log
+  INFO [00a87431] Finished in 0.223 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 15:35:23 +0630 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e85ec084] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [e85ec084] Command: /usr/bin/env mkdir -p /tmp
+  INFO [012b1dc3] Finished in 0.981 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [e50f1af4] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [e50f1af4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [a574276a] Finished in 0.286 seconds with exit status 0 (successful).
+  INFO [5fee0475] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [5fee0475] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [a293c496] 	Warning: Permanently added the RSA host key for IP address '13.229.188.59' to the list of known hosts.
+ DEBUG [a293c496] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [a293c496] Finished in 2.925 seconds with exit status 0 (successful).
+  INFO [c0f10b12] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [c0f10b12] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [2262343a] Finished in 0.267 seconds with exit status 0 (successful).
+  INFO [ea6e894e] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [ea6e894e] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [620663ca] Finished in 0.289 seconds with exit status 0 (successful).
+ DEBUG [cc75c7b3] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [cc75c7b3] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [3e103623] Finished in 0.627 seconds with exit status 0 (successful).
+ DEBUG [35672113] Running [ -f /home/ec2-user/blogging/current/REVISION ] as ec2-user@13.250.44.215
+ DEBUG [35672113] Command: [ -f /home/ec2-user/blogging/current/REVISION ]
+ DEBUG [125bf076] Finished in 0.435 seconds with exit status 0 (successful).
+ DEBUG [8837bad8] Running /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null as ec2-user@13.250.44.215
+ DEBUG [8837bad8] Command: /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null
+ DEBUG [8075373a] 	c0e22b54b568054145bb3da92a49106fcc1a341a
+ DEBUG [8075373a] Finished in 0.315 seconds with exit status 0 (successful).
+ DEBUG [961c2606] Running [ -f /home/ec2-user/blogging/repo/HEAD ] as ec2-user@13.250.44.215
+ DEBUG [961c2606] Command: [ -f /home/ec2-user/blogging/repo/HEAD ]
+ DEBUG [ef0c8c9e] Finished in 0.261 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ec2-user/blogging/repo
+ DEBUG [0a7a2363] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [0a7a2363] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [c1471738] Finished in 0.294 seconds with exit status 0 (successful).
+  INFO [7421bca4] Running /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git as ec2-user@13.250.44.215
+ DEBUG [7421bca4] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git )
+  INFO [2a589626] Finished in 0.430 seconds with exit status 0 (successful).
+  INFO [018df4b0] Running /usr/bin/env git remote update --prune as ec2-user@13.250.44.215
+ DEBUG [018df4b0] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d1e9a089] 	Fetching origin
+  INFO [d1e9a089] Finished in 2.743 seconds with exit status 0 (successful).
+ DEBUG [39f77802] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [39f77802] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [564bdfd0] Finished in 0.167 seconds with exit status 0 (successful).
+  INFO [1772ab8a] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090530 as ec2-user@13.250.44.215
+ DEBUG [1772ab8a] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090530 )
+  INFO [20634c2e] Finished in 0.242 seconds with exit status 0 (successful).
+  INFO [f63bf7d9] Running /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190602090530 as ec2-user@13.250.44.215
+ DEBUG [f63bf7d9] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190602090530 )
+  INFO [a0437501] Finished in 0.288 seconds with exit status 0 (successful).
+ DEBUG [41900b9f] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [41900b9f] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [e661b9cb] Finished in 0.215 seconds with exit status 0 (successful).
+ DEBUG [8869962f] Running /usr/bin/env git rev-list --max-count=1 jenkins as ec2-user@13.250.44.215
+ DEBUG [8869962f] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git rev-list --max-count=1 jenkins )
+ DEBUG [a6ae50f1] 	c0e22b54b568054145bb3da92a49106fcc1a341a
+ DEBUG [a6ae50f1] Finished in 0.317 seconds with exit status 0 (successful).
+ DEBUG [4391a332] Running if test ! -d /home/ec2-user/blogging/releases/20190602090530; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190602090530'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [4391a332] Command: if test ! -d /home/ec2-user/blogging/releases/20190602090530; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190602090530'" 1>&2; false; fi
+ DEBUG [b6195122] Finished in 0.390 seconds with exit status 0 (successful).
+  INFO [a1b495d0] Running /usr/bin/env echo "c0e22b54b568054145bb3da92a49106fcc1a341a" > REVISION as ec2-user@13.250.44.215
+ DEBUG [a1b495d0] Command: cd /home/ec2-user/blogging/releases/20190602090530 && /usr/bin/env echo "c0e22b54b568054145bb3da92a49106fcc1a341a" > REVISION
+  INFO [04d8d4b4] Finished in 0.298 seconds with exit status 0 (successful).
+  INFO [7af81994] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090530 as ec2-user@13.250.44.215
+ DEBUG [7af81994] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190602090530
+  INFO [cbf07c11] Finished in 0.466 seconds with exit status 0 (successful).
+ DEBUG [0fb807bf] Running [ -L /home/ec2-user/blogging/releases/20190602090530/.env ] as ec2-user@13.250.44.215
+ DEBUG [0fb807bf] Command: [ -L /home/ec2-user/blogging/releases/20190602090530/.env ]
+ DEBUG [1bfdb953] Finished in 0.382 seconds with exit status 1 (failed).
+ DEBUG [1d5153cb] Running [ -f /home/ec2-user/blogging/releases/20190602090530/.env ] as ec2-user@13.250.44.215
+ DEBUG [1d5153cb] Command: [ -f /home/ec2-user/blogging/releases/20190602090530/.env ]
+ DEBUG [1552daf2] Finished in 0.377 seconds with exit status 1 (failed).
+  INFO [fad58416] Running /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190602090530/.env as ec2-user@13.250.44.215
+ DEBUG [fad58416] Command: /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190602090530/.env
+  INFO [3e552a0e] Finished in 0.430 seconds with exit status 0 (successful).
+  INFO [4fb9a683] Running /usr/bin/env ln -s /home/ec2-user/blogging/releases/20190602090530 /home/ec2-user/blogging/releases/current as ec2-user@13.250.44.215
+ DEBUG [4fb9a683] Command: /usr/bin/env ln -s /home/ec2-user/blogging/releases/20190602090530 /home/ec2-user/blogging/releases/current
+  INFO [03ae7874] Finished in 1.010 seconds with exit status 0 (successful).
+  INFO [814eef72] Running /usr/bin/env mv /home/ec2-user/blogging/releases/current /home/ec2-user/blogging as ec2-user@13.250.44.215
+ DEBUG [814eef72] Command: /usr/bin/env mv /home/ec2-user/blogging/releases/current /home/ec2-user/blogging
+  INFO [a0ceaba1] Finished in 0.602 seconds with exit status 0 (successful).
+ DEBUG [4cfade1f] Running /usr/bin/env ls -x /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [4cfade1f] Command: /usr/bin/env ls -x /home/ec2-user/blogging/releases
+ DEBUG [1d5348ae] 	20190602090230	20190602090530
+ DEBUG [1d5348ae] Finished in 1.202 seconds with exit status 0 (successful).
+ DEBUG [35989f22] Running if test ! -d /home/ec2-user/blogging/releases; then echo "Directory does not exist '/home/ec2-user/blogging/releases'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [35989f22] Command: if test ! -d /home/ec2-user/blogging/releases; then echo "Directory does not exist '/home/ec2-user/blogging/releases'" 1>&2; false; fi
+ DEBUG [5aa52f3c] Finished in 5.046 seconds with exit status 0 (successful).
+  INFO [75a3dcd8] Running /usr/bin/env echo "Branch jenkins (at c0e22b54b568054145bb3da92a49106fcc1a341a) deployed as release 20190602090530 by min" >> /home/ec2-user/blogging/revisions.log as ec2-user@13.250.44.215
+ DEBUG [75a3dcd8] Command: cd /home/ec2-user/blogging/releases && /usr/bin/env echo "Branch jenkins (at c0e22b54b568054145bb3da92a49106fcc1a341a) deployed as release 20190602090530 by min" >> /home/ec2-user/blogging/revisions.log
+  INFO [69d29fb2] Finished in 11.639 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-02 16:28:39 +0630 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6d711a3d] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [6d711a3d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [83c43147] Finished in 0.872 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [29bbbe8b] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [29bbbe8b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [38e7e2bd] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO [ceffa713] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [ceffa713] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [492c63a4] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [492c63a4] Finished in 2.743 seconds with exit status 0 (successful).
+  INFO [e4486f15] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [e4486f15] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [f7e630ba] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [38df23f7] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [38df23f7] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [b2ddf63a] Finished in 0.250 seconds with exit status 0 (successful).
+ DEBUG [a20a54f7] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [a20a54f7] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [d98b7743] Finished in 0.303 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-08 10:55:36 +0630 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cd9dd357] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [cd9dd357] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bc3d9d23] Finished in 0.995 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [d8e1194b] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [d8e1194b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [58c8ea59] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO [48baaeea] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [48baaeea] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [12ca3035] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [12ca3035] Finished in 2.818 seconds with exit status 0 (successful).
+  INFO [e96d804b] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [e96d804b] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [bab2aae5] Finished in 0.181 seconds with exit status 0 (successful).
+  INFO [8b403a16] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [8b403a16] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [eb1ec8ac] Finished in 0.222 seconds with exit status 0 (successful).
+ DEBUG [b2d4ec18] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [b2d4ec18] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [c0ea0279] Finished in 0.219 seconds with exit status 0 (successful).
+ DEBUG [bcf627db] Running [ -f /home/ec2-user/blogging/current/REVISION ] as ec2-user@13.250.44.215
+ DEBUG [bcf627db] Command: [ -f /home/ec2-user/blogging/current/REVISION ]
+ DEBUG [a696c148] Finished in 0.221 seconds with exit status 0 (successful).
+ DEBUG [31486580] Running /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null as ec2-user@13.250.44.215
+ DEBUG [31486580] Command: /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null
+ DEBUG [794f2ab0] 	c0e22b54b568054145bb3da92a49106fcc1a341a
+ DEBUG [794f2ab0] Finished in 0.225 seconds with exit status 0 (successful).
+ DEBUG [ddc43f85] Running [ -f /home/ec2-user/blogging/repo/HEAD ] as ec2-user@13.250.44.215
+ DEBUG [ddc43f85] Command: [ -f /home/ec2-user/blogging/repo/HEAD ]
+ DEBUG [990888c1] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ec2-user/blogging/repo
+ DEBUG [340e6079] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [340e6079] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [d4a0bcda] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO [c822ce7d] Running /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git as ec2-user@13.250.44.215
+ DEBUG [c822ce7d] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git )
+  INFO [cc315784] Finished in 0.223 seconds with exit status 0 (successful).
+  INFO [72f03158] Running /usr/bin/env git remote update --prune as ec2-user@13.250.44.215
+ DEBUG [72f03158] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [9ba1e21d] 	Fetching origin
+ DEBUG [9ba1e21d] 	From github.com:geekoutmm/blogging
+   c0e22b5..ca5b746  jenkins    -> jenkins
+  INFO [9ba1e21d] Finished in 2.979 seconds with exit status 0 (successful).
+ DEBUG [10a1764a] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [10a1764a] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [fea08686] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO [c07b9610] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042542 as ec2-user@13.250.44.215
+ DEBUG [c07b9610] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042542 )
+  INFO [80c66fa4] Finished in 0.226 seconds with exit status 0 (successful).
+  INFO [c8dff588] Running /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190608042542 as ec2-user@13.250.44.215
+ DEBUG [c8dff588] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190608042542 )
+  INFO [2a51508f] Finished in 0.241 seconds with exit status 0 (successful).
+ DEBUG [ca22adb1] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [ca22adb1] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [23f5a6fe] Finished in 0.220 seconds with exit status 0 (successful).
+ DEBUG [09ccc0fe] Running /usr/bin/env git rev-list --max-count=1 jenkins as ec2-user@13.250.44.215
+ DEBUG [09ccc0fe] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git rev-list --max-count=1 jenkins )
+ DEBUG [c5b36ab4] 	ca5b746f793d2b9fd66d44176edc73774767a2c4
+ DEBUG [c5b36ab4] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [f3a195ca] Running if test ! -d /home/ec2-user/blogging/releases/20190608042542; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190608042542'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [f3a195ca] Command: if test ! -d /home/ec2-user/blogging/releases/20190608042542; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190608042542'" 1>&2; false; fi
+ DEBUG [0a85de85] Finished in 0.221 seconds with exit status 0 (successful).
+  INFO [339ed77e] Running /usr/bin/env echo "ca5b746f793d2b9fd66d44176edc73774767a2c4" > REVISION as ec2-user@13.250.44.215
+ DEBUG [339ed77e] Command: cd /home/ec2-user/blogging/releases/20190608042542 && /usr/bin/env echo "ca5b746f793d2b9fd66d44176edc73774767a2c4" > REVISION
+  INFO [4393f2ea] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO [274cb992] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042542 as ec2-user@13.250.44.215
+ DEBUG [274cb992] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042542
+  INFO [b51ba295] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [b19b91ed] Running [ -L /home/ec2-user/blogging/releases/20190608042542/.env ] as ec2-user@13.250.44.215
+ DEBUG [b19b91ed] Command: [ -L /home/ec2-user/blogging/releases/20190608042542/.env ]
+ DEBUG [31a87c53] Finished in 0.220 seconds with exit status 1 (failed).
+ DEBUG [f261e7f4] Running [ -f /home/ec2-user/blogging/releases/20190608042542/.env ] as ec2-user@13.250.44.215
+ DEBUG [f261e7f4] Command: [ -f /home/ec2-user/blogging/releases/20190608042542/.env ]
+ DEBUG [c4e631af] Finished in 0.224 seconds with exit status 1 (failed).
+  INFO [a5836fca] Running /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190608042542/.env as ec2-user@13.250.44.215
+ DEBUG [a5836fca] Command: /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190608042542/.env
+  INFO [50e7f200] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [b5d5662f] Running /usr/bin/env ln -s /home/ec2-user/blogging/releases/20190608042542 /home/ec2-user/blogging/releases/current as ec2-user@13.250.44.215
+ DEBUG [b5d5662f] Command: /usr/bin/env ln -s /home/ec2-user/blogging/releases/20190608042542 /home/ec2-user/blogging/releases/current
+  INFO [0fe64a7f] Finished in 0.223 seconds with exit status 0 (successful).
+  INFO [b2ba68bb] Running /usr/bin/env mv /home/ec2-user/blogging/releases/current /home/ec2-user/blogging as ec2-user@13.250.44.215
+ DEBUG [b2ba68bb] Command: /usr/bin/env mv /home/ec2-user/blogging/releases/current /home/ec2-user/blogging
+  INFO [82ca6b7b] Finished in 0.225 seconds with exit status 0 (successful).
+ DEBUG [8bb3ac97] Running /usr/bin/env ls -x /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [8bb3ac97] Command: /usr/bin/env ls -x /home/ec2-user/blogging/releases
+ DEBUG [0de9deae] 	20190602090230	20190602090530	20190608042542
+ DEBUG [0de9deae] Finished in 0.226 seconds with exit status 0 (successful).
+ DEBUG [bf2bb661] Running if test ! -d /home/ec2-user/blogging/releases; then echo "Directory does not exist '/home/ec2-user/blogging/releases'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [bf2bb661] Command: if test ! -d /home/ec2-user/blogging/releases; then echo "Directory does not exist '/home/ec2-user/blogging/releases'" 1>&2; false; fi
+ DEBUG [5277e34a] Finished in 0.221 seconds with exit status 0 (successful).
+  INFO [7b232afc] Running /usr/bin/env echo "Branch jenkins (at ca5b746f793d2b9fd66d44176edc73774767a2c4) deployed as release 20190608042542 by min" >> /home/ec2-user/blogging/revisions.log as ec2-user@13.250.44.215
+ DEBUG [7b232afc] Command: cd /home/ec2-user/blogging/releases && /usr/bin/env echo "Branch jenkins (at ca5b746f793d2b9fd66d44176edc73774767a2c4) deployed as release 20190608042542 by min" >> /home/ec2-user/blogging/revisions.log
+  INFO [1730aab0] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-08 10:57:43 +0630 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c38537a6] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [c38537a6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e2f1471d] Finished in 1.001 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [e15f97a1] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [e15f97a1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [7cadd000] Finished in 0.231 seconds with exit status 0 (successful).
+  INFO [a4a0f3c8] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [a4a0f3c8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [8cab7254] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [8cab7254] Finished in 2.750 seconds with exit status 0 (successful).
+  INFO [494ed95a] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [494ed95a] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [04e9fefb] Finished in 0.189 seconds with exit status 0 (successful).
+  INFO [c35af6be] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared/storage/ as ec2-user@13.250.44.215
+ DEBUG [c35af6be] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared/storage/
+  INFO [98ed6cb9] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [6fb5c645] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [6fb5c645] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [143cf25e] Finished in 0.236 seconds with exit status 0 (successful).
+ DEBUG [43c7fb65] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [43c7fb65] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [8b1b184e] Finished in 0.233 seconds with exit status 0 (successful).
+ DEBUG [6733fa6d] Running [ -f /home/ec2-user/blogging/current/REVISION ] as ec2-user@13.250.44.215
+ DEBUG [6733fa6d] Command: [ -f /home/ec2-user/blogging/current/REVISION ]
+ DEBUG [d82fd200] Finished in 0.229 seconds with exit status 0 (successful).
+ DEBUG [665f7df0] Running /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null as ec2-user@13.250.44.215
+ DEBUG [665f7df0] Command: /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null
+ DEBUG [809e06c7] 	ca5b746f793d2b9fd66d44176edc73774767a2c4
+ DEBUG [809e06c7] Finished in 0.232 seconds with exit status 0 (successful).
+ DEBUG [94b65771] Running [ -f /home/ec2-user/blogging/repo/HEAD ] as ec2-user@13.250.44.215
+ DEBUG [94b65771] Command: [ -f /home/ec2-user/blogging/repo/HEAD ]
+ DEBUG [fdb8b1a1] Finished in 0.231 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ec2-user/blogging/repo
+ DEBUG [39bce382] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [39bce382] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [d48d51db] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [c2ed9cff] Running /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git as ec2-user@13.250.44.215
+ DEBUG [c2ed9cff] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git )
+  INFO [e6436f97] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [14da3800] Running /usr/bin/env git remote update --prune as ec2-user@13.250.44.215
+ DEBUG [14da3800] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [007240db] 	Fetching origin
+  INFO [007240db] Finished in 2.924 seconds with exit status 0 (successful).
+ DEBUG [29b62293] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [29b62293] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [197e889f] Finished in 0.190 seconds with exit status 0 (successful).
+  INFO [fe6a4762] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042748 as ec2-user@13.250.44.215
+ DEBUG [fe6a4762] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042748 )
+  INFO [51ad21af] Finished in 0.232 seconds with exit status 0 (successful).
+  INFO [f54b7015] Running /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190608042748 as ec2-user@13.250.44.215
+ DEBUG [f54b7015] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190608042748 )
+  INFO [86c0543e] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [ca757ac8] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [ca757ac8] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [92ecb121] Finished in 0.231 seconds with exit status 0 (successful).
+ DEBUG [cc2d2894] Running /usr/bin/env git rev-list --max-count=1 jenkins as ec2-user@13.250.44.215
+ DEBUG [cc2d2894] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git rev-list --max-count=1 jenkins )
+ DEBUG [7bdd389c] 	ca5b746f793d2b9fd66d44176edc73774767a2c4
+ DEBUG [7bdd389c] Finished in 0.238 seconds with exit status 0 (successful).
+ DEBUG [073abf77] Running if test ! -d /home/ec2-user/blogging/releases/20190608042748; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190608042748'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [073abf77] Command: if test ! -d /home/ec2-user/blogging/releases/20190608042748; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190608042748'" 1>&2; false; fi
+ DEBUG [5a900df8] Finished in 0.235 seconds with exit status 0 (successful).
+  INFO [6d55c614] Running /usr/bin/env echo "ca5b746f793d2b9fd66d44176edc73774767a2c4" > REVISION as ec2-user@13.250.44.215
+ DEBUG [6d55c614] Command: cd /home/ec2-user/blogging/releases/20190608042748 && /usr/bin/env echo "ca5b746f793d2b9fd66d44176edc73774767a2c4" > REVISION
+  INFO [7ba41437] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [79dcbb62] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042748 as ec2-user@13.250.44.215
+ DEBUG [79dcbb62] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042748
+  INFO [f8866f8b] Finished in 0.230 seconds with exit status 0 (successful).
+ DEBUG [dc295b32] Running [ -L /home/ec2-user/blogging/releases/20190608042748/.env ] as ec2-user@13.250.44.215
+ DEBUG [dc295b32] Command: [ -L /home/ec2-user/blogging/releases/20190608042748/.env ]
+ DEBUG [b81fde37] Finished in 0.230 seconds with exit status 1 (failed).
+ DEBUG [cf75fe42] Running [ -f /home/ec2-user/blogging/releases/20190608042748/.env ] as ec2-user@13.250.44.215
+ DEBUG [cf75fe42] Command: [ -f /home/ec2-user/blogging/releases/20190608042748/.env ]
+ DEBUG [fceb39d6] Finished in 0.233 seconds with exit status 1 (failed).
+  INFO [f8c27b37] Running /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190608042748/.env as ec2-user@13.250.44.215
+ DEBUG [f8c27b37] Command: /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190608042748/.env
+  INFO [9bcbf732] Finished in 0.233 seconds with exit status 0 (successful).
+  INFO [3b547ac8] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042748 as ec2-user@13.250.44.215
+ DEBUG [3b547ac8] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042748
+  INFO [d7f6d6c1] Finished in 0.232 seconds with exit status 0 (successful).
+ DEBUG [5191a252] Running [ -L /home/ec2-user/blogging/releases/20190608042748/storage/ ] as ec2-user@13.250.44.215
+ DEBUG [5191a252] Command: [ -L /home/ec2-user/blogging/releases/20190608042748/storage/ ]
+ DEBUG [f08b5edd] Finished in 0.229 seconds with exit status 1 (failed).
+ DEBUG [9241f8f7] Running [ -d /home/ec2-user/blogging/releases/20190608042748/storage/ ] as ec2-user@13.250.44.215
+ DEBUG [9241f8f7] Command: [ -d /home/ec2-user/blogging/releases/20190608042748/storage/ ]
+ DEBUG [205f52ae] Finished in 0.232 seconds with exit status 0 (successful).
+  INFO [86c58559] Running /usr/bin/env rm -rf /home/ec2-user/blogging/releases/20190608042748/storage/ as ec2-user@13.250.44.215
+ DEBUG [86c58559] Command: /usr/bin/env rm -rf /home/ec2-user/blogging/releases/20190608042748/storage/
+  INFO [eb44c70b] Finished in 0.231 seconds with exit status 0 (successful).
+  INFO [586c7b5d] Running /usr/bin/env ln -s /home/ec2-user/blogging/shared/storage/ /home/ec2-user/blogging/releases/20190608042748/storage/ as ec2-user@13.250.44.215
+ DEBUG [586c7b5d] Command: /usr/bin/env ln -s /home/ec2-user/blogging/shared/storage/ /home/ec2-user/blogging/releases/20190608042748/storage/
+ DEBUG [c2076ab2] 	ln: target '/home/ec2-user/blogging/releases/20190608042748/storage/' is not a directory: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-08 10:58:47 +0630 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [31b11b92] Running /usr/bin/env mkdir -p /tmp as ec2-user@13.250.44.215
+ DEBUG [31b11b92] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e609f215] Finished in 0.769 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blogging-staging-min.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blogging-staging-min.sh 100.0%
+  INFO [c4161e8c] Running /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh as ec2-user@13.250.44.215
+ DEBUG [c4161e8c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blogging-staging-min.sh
+  INFO [34714c09] Finished in 0.199 seconds with exit status 0 (successful).
+  INFO [0c9bcb02] Running /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD as ec2-user@13.250.44.215
+ DEBUG [0c9bcb02] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git ls-remote git@github.com:geekoutmm/blogging.git HEAD )
+ DEBUG [232c7578] 	c684d073e0d6bf3842f0dc81ad1f3967702e37a3	HEAD
+  INFO [232c7578] Finished in 2.659 seconds with exit status 0 (successful).
+  INFO [7e3c3b6d] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases as ec2-user@13.250.44.215
+ DEBUG [7e3c3b6d] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared /home/ec2-user/blogging/releases
+  INFO [abf4f859] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO [8f7d7896] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared/storage/ as ec2-user@13.250.44.215
+ DEBUG [8f7d7896] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared/storage/
+  INFO [4dd8313a] Finished in 0.202 seconds with exit status 0 (successful).
+  INFO [a242129a] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/shared as ec2-user@13.250.44.215
+ DEBUG [a242129a] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/shared
+  INFO [5f1af76f] Finished in 0.195 seconds with exit status 0 (successful).
+ DEBUG [23a8abff] Running [ -f /home/ec2-user/blogging/shared/.env ] as ec2-user@13.250.44.215
+ DEBUG [23a8abff] Command: [ -f /home/ec2-user/blogging/shared/.env ]
+ DEBUG [a22adae8] Finished in 0.193 seconds with exit status 0 (successful).
+ DEBUG [cc22edc2] Running [ -f /home/ec2-user/blogging/current/REVISION ] as ec2-user@13.250.44.215
+ DEBUG [cc22edc2] Command: [ -f /home/ec2-user/blogging/current/REVISION ]
+ DEBUG [49a81533] Finished in 0.196 seconds with exit status 0 (successful).
+ DEBUG [91826a09] Running /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null as ec2-user@13.250.44.215
+ DEBUG [91826a09] Command: /usr/bin/env cat /home/ec2-user/blogging/current/REVISION 2>/dev/null
+ DEBUG [7ef61fb9] 	ca5b746f793d2b9fd66d44176edc73774767a2c4
+ DEBUG [7ef61fb9] Finished in 0.205 seconds with exit status 0 (successful).
+ DEBUG [60051495] Running [ -f /home/ec2-user/blogging/repo/HEAD ] as ec2-user@13.250.44.215
+ DEBUG [60051495] Command: [ -f /home/ec2-user/blogging/repo/HEAD ]
+ DEBUG [703a1f6e] Finished in 0.198 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ec2-user/blogging/repo
+ DEBUG [117e4407] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [117e4407] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [b26259ca] Finished in 0.204 seconds with exit status 0 (successful).
+  INFO [66b39b53] Running /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git as ec2-user@13.250.44.215
+ DEBUG [66b39b53] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote set-url origin git@github.com:geekoutmm/blogging.git )
+  INFO [bbf3d1f1] Finished in 0.202 seconds with exit status 0 (successful).
+  INFO [0423bec6] Running /usr/bin/env git remote update --prune as ec2-user@13.250.44.215
+ DEBUG [0423bec6] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [457e9932] 	Fetching origin
+  INFO [457e9932] Finished in 2.698 seconds with exit status 0 (successful).
+ DEBUG [bf2599c8] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [bf2599c8] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [788ed2b5] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [d27423a3] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042852 as ec2-user@13.250.44.215
+ DEBUG [d27423a3] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042852 )
+  INFO [fbe96031] Finished in 0.200 seconds with exit status 0 (successful).
+  INFO [6bd692d6] Running /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190608042852 as ec2-user@13.250.44.215
+ DEBUG [6bd692d6] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git archive jenkins | /usr/bin/env tar -x -f - -C /home/ec2-user/blogging/releases/20190608042852 )
+  INFO [6c5d1e49] Finished in 0.221 seconds with exit status 0 (successful).
+ DEBUG [558787fc] Running if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [558787fc] Command: if test ! -d /home/ec2-user/blogging/repo; then echo "Directory does not exist '/home/ec2-user/blogging/repo'" 1>&2; false; fi
+ DEBUG [1e6ff98f] Finished in 0.198 seconds with exit status 0 (successful).
+ DEBUG [e9fb5351] Running /usr/bin/env git rev-list --max-count=1 jenkins as ec2-user@13.250.44.215
+ DEBUG [e9fb5351] Command: cd /home/ec2-user/blogging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blogging-staging-min.sh" ; /usr/bin/env git rev-list --max-count=1 jenkins )
+ DEBUG [8009359c] 	ca5b746f793d2b9fd66d44176edc73774767a2c4
+ DEBUG [8009359c] Finished in 0.200 seconds with exit status 0 (successful).
+ DEBUG [5b958df4] Running if test ! -d /home/ec2-user/blogging/releases/20190608042852; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190608042852'" 1>&2; false; fi as ec2-user@13.250.44.215
+ DEBUG [5b958df4] Command: if test ! -d /home/ec2-user/blogging/releases/20190608042852; then echo "Directory does not exist '/home/ec2-user/blogging/releases/20190608042852'" 1>&2; false; fi
+ DEBUG [01b239a4] Finished in 0.197 seconds with exit status 0 (successful).
+  INFO [9ded90de] Running /usr/bin/env echo "ca5b746f793d2b9fd66d44176edc73774767a2c4" > REVISION as ec2-user@13.250.44.215
+ DEBUG [9ded90de] Command: cd /home/ec2-user/blogging/releases/20190608042852 && /usr/bin/env echo "ca5b746f793d2b9fd66d44176edc73774767a2c4" > REVISION
+  INFO [b11d50e4] Finished in 0.200 seconds with exit status 0 (successful).
+  INFO [f35ab71a] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042852 as ec2-user@13.250.44.215
+ DEBUG [f35ab71a] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042852
+  INFO [09ef19ad] Finished in 0.199 seconds with exit status 0 (successful).
+ DEBUG [5a3850ae] Running [ -L /home/ec2-user/blogging/releases/20190608042852/.env ] as ec2-user@13.250.44.215
+ DEBUG [5a3850ae] Command: [ -L /home/ec2-user/blogging/releases/20190608042852/.env ]
+ DEBUG [540de0af] Finished in 0.199 seconds with exit status 1 (failed).
+ DEBUG [ad0e4467] Running [ -f /home/ec2-user/blogging/releases/20190608042852/.env ] as ec2-user@13.250.44.215
+ DEBUG [ad0e4467] Command: [ -f /home/ec2-user/blogging/releases/20190608042852/.env ]
+ DEBUG [2d4bacdb] Finished in 0.198 seconds with exit status 1 (failed).
+  INFO [56c565be] Running /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190608042852/.env as ec2-user@13.250.44.215
+ DEBUG [56c565be] Command: /usr/bin/env ln -s /home/ec2-user/blogging/shared/.env /home/ec2-user/blogging/releases/20190608042852/.env
+  INFO [1bea946f] Finished in 0.200 seconds with exit status 0 (successful).
+  INFO [7f06bbd4] Running /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042852 as ec2-user@13.250.44.215
+ DEBUG [7f06bbd4] Command: /usr/bin/env mkdir -p /home/ec2-user/blogging/releases/20190608042852
+  INFO [82da0536] Finished in 0.196 seconds with exit status 0 (successful).
+ DEBUG [eb79b481] Running [ -L /home/ec2-user/blogging/releases/20190608042852/storage/ ] as ec2-user@13.250.44.215
+ DEBUG [eb79b481] Command: [ -L /home/ec2-user/blogging/releases/20190608042852/storage/ ]
+ DEBUG [64d1d4e1] Finished in 0.201 seconds with exit status 1 (failed).
+ DEBUG [990f023c] Running [ -d /home/ec2-user/blogging/releases/20190608042852/storage/ ] as ec2-user@13.250.44.215
+ DEBUG [990f023c] Command: [ -d /home/ec2-user/blogging/releases/20190608042852/storage/ ]
+ DEBUG [d6401ed8] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [3b20538f] Running /usr/bin/env rm -rf /home/ec2-user/blogging/releases/20190608042852/storage/ as ec2-user@13.250.44.215
+ DEBUG [3b20538f] Command: /usr/bin/env rm -rf /home/ec2-user/blogging/releases/20190608042852/storage/
+  INFO [d2237f37] Finished in 0.212 seconds with exit status 0 (successful).
+  INFO [87d4f96d] Running /usr/bin/env ln -s /home/ec2-user/blogging/shared/storage/ /home/ec2-user/blogging/releases/20190608042852/storage/ as ec2-user@13.250.44.215
+ DEBUG [87d4f96d] Command: /usr/bin/env ln -s /home/ec2-user/blogging/shared/storage/ /home/ec2-user/blogging/releases/20190608042852/storage/
+ DEBUG [755cafeb] 	ln: target '/home/ec2-user/blogging/releases/20190608042852/storage/' is not a directory: No such file or directory
