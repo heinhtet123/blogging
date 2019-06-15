@@ -1,4 +1,5 @@
 #!/bin/sh
 timestamp="$(date +%Y-%m-%d-%H-%M-%S)"
 docker build -t minsanxikang/phpcicd:"$timestamp" -f Dockerfile.production .
-docker push minsanxikang/phpcicd:"$timestamp"
+docker tag minsanxikang/phpcicd:"$timestamp"  minsanxikang/phpcicd:latest
+docker push minsanxikang/phpcicd
