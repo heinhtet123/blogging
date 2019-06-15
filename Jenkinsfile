@@ -1,5 +1,8 @@
 pipeline{
   agent { node { label 'master' } }
+  environment {
+    REGISTRY_AUTH = credentials("docker_hub")
+  }
   stages {
     stage('Build') {
       agent{
@@ -14,6 +17,7 @@ pipeline{
 
     stage('Deploy') {
       steps {
+        sh "docker login -u=$REGISTRY_AUTH_USR -p=$REGISTRY_AUTH_PSW"
         sh './deploy'
       }
     }

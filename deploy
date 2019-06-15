@@ -1,1 +1,3 @@
-docker build -t minsanxikang/phpcicd:$(date +%Y-%m-%d_%H-%M-%S) -f Dockerfile.production .
+timestamp = date +%Y-%m-%d_%H-%M-%S
+docker build -t minsanxikang/phpcicd:$(timestamp) -f Dockerfile.production .
+docker push minsanxikang/phpcicd:$(timestamp)
