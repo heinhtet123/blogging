@@ -1,3 +1,4 @@
-timestamp = date +%Y-%m-%d_%H-%M-%S
+#!/bin/sh
+timestamp= date +%Y-%m-%d_%H-%M-%S
 docker build -t minsanxikang/phpcicd:$(timestamp) -f Dockerfile.production .
 docker push minsanxikang/phpcicd:$(timestamp)
