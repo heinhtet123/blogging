@@ -1,21 +1,18 @@
 pipeline {
-  agent {
-    docker {
-      image 'hein71290/phpalpine:latest'
-    }
-
-  }
+  agent none
   stages {
     stage('Build') {
+      docker {
+        image 'hein71290/phpalpine:latest'
+      }
       steps {
         sh 'composer install'
       }
     }
+
     stage('Deploy') {
       steps {
-        script{
-          docker.build("myfirstbuild")
-        }
+        sh './deploy'
       }
     }
   }

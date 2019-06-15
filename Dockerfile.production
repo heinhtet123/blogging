@@ -1,0 +1,3 @@
+From hein71290/phpalpine:latest
+WORKDIR /var/www/cicd
+COPY . /var/www/cicd
