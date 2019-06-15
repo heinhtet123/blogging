@@ -1,5 +1,5 @@
 pipeline{
-  agent { node { label 'ci' } }
+  agent { node { label 'master' } }
   stages {
     stage('Build') {
       agent{
@@ -13,7 +13,6 @@ pipeline{
     }
 
     stage('Deploy') {
-      agent { node { label 'prod' } }
       steps {
         sh './deploy'
       }
