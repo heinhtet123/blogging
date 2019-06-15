@@ -1,4 +1,5 @@
-node('master'){
+pipeline{
+  agent { node { label 'ci' } }
   stages {
     stage('Build') {
       agent{
@@ -12,6 +13,7 @@ node('master'){
     }
 
     stage('Deploy') {
+      agent { node { label 'prod' } }
       steps {
         sh './deploy'
       }
